@@ -162,7 +162,28 @@ nav>ul>li>a{text-decoration: none;}
 .deals>p{
     color: rgba(0, 0, 0, 0.5);
 }
-    
+ 
+
+@media screen and (max-width:576px) {
+    .flower-title{
+        text-align: center;
+    }
+    .card{
+        grid-template-columns: repeat(2,1fr);width: 362px;height: 34px;margin: auto;
+    }
+    .why-love{
+        flex-direction: column;align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
     
     
     .flower-plant{display: flex;
@@ -278,4 +299,10 @@ display: flex;justify-content: center;width: 216px;height: 36px; margin-right: 2
 }
 .footer-left{
     margin-bottom: 16px;
+}
+
+
+
+.hide{
+    display: none;
 }
