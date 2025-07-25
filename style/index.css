@@ -1,0 +1,281 @@
+
+.inter-font{
+    font-family: "Inter", sans-serif;
+}
+.worksans-font{
+      font-family: "Work Sans", sans-serif;
+
+}
+.noto-font{
+    font-family: "Noto Serif", serif;
+
+}
+
+*{
+    box-sizing: border-box;
+    /* margin: 0; */
+    padding: 0;
+    
+}
+
+body{background-color:rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 1);margin: 0;}
+nav{
+    display: flex;
+    justify-content: space-between;align-items: center;
+    width: auto;height: 70px;text-align: center; margin: 0 auto;width:1140px;height: auto;gap: 350px;
+}
+nav>ul{
+    display: flex;
+}
+nav>ul>li{list-style: none;
+margin: 46px;}
+nav>ul>li>a{text-decoration: none;}
+.logo{
+    width: 135px;height: 82px;
+}
+.home-logo{
+    color:#252432 ;
+    font-weight: 700;
+    font-size:medium ;
+}
+.same-logo{
+    color: #8987A1;
+    font-weight:400 ;
+    font-size: medium;
+}
+.cart-logo{
+    color: #000000;
+    font-weight: 400;
+    font-size: medium;
+}
+
+
+.banner{
+    display: flex; justify-content:space-between;text-align: center;align-items: end;
+    margin: 0 auto; width: 1140px; height: auto; margin-top: 200px; }
+    .banner-right{
+        width: 50%;
+        
+    }
+    .banner-left{
+        width: 50%;display: block;
+    }
+    .dark{
+        color:#000000 ; font-weight: bold;
+        font-size: 65px;
+    }
+    .yellow{
+        color: rgba(233, 90, 8, 1);
+        font-weight: bold;font-size: 65px;
+    }
+
+
+
+
+    .banner-description{
+        color:rgba(0, 0, 0, 0.5) ;
+    }
+
+ .flowers-card{
+    width: 270px;
+    height: 480px;
+    text-align: center;
+    background-color:rgba(255, 255, 255, 1) ;
+    gap: 30px;
+ }
+ .flowers-card img {
+    width: 100%;
+ }
+ .card-h3{
+   font-weight: 400;
+   font-size: 22px;
+   color: rgba(17, 17, 17, 1);
+ }
+ .doller{
+    color: rgba(17, 17, 17, 1);
+    font-weight: bold;
+    font-size: 22px;
+ }
+ .btn{
+    background-color:rgba(233, 90, 8, 1) ;
+    color:rgba(255, 255, 255, 1) ;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    width: 270px;
+    height: 26px;
+    border: 0;
+    text-align: center;
+ }
+ .card{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr) ;
+    gap: 30px;margin-bottom: 50px;
+    
+ }
+ .flowers-shop{
+    margin: 0;
+    width: 100%;height: auto;
+    place-items: center;
+    justify-items: center;
+    margin-top:107px ;
+    margin-bottom: 50px;
+    
+ }
+
+
+ 
+ .flower-love{  
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    justify-content: center;
+    margin-top: 130px;
+ }
+ 
+ .why-love-right{
+    width:50%;height:auto;             
+ }
+ .why-love-right>ul>li{
+    color:rgba(0, 0, 0, 0.5) ;
+ }
+ 
+ .why-love{
+    display: flex;gap:60px;justify-content: space-between;width: 100%;
+    
+ }
+ .why-love-left{
+    width: 100%; height:auto ;
+ }
+
+.full-deals{
+    display: flex;justify-content: center;align-items: center; 
+}
+ .deals h2,p{width: 100%;
+  margin: 0 0 10px 0;
+
+    
+ }
+ .deals{
+    margin-top: 130px;text-align: center;}
+.deals>p{
+    color: rgba(0, 0, 0, 0.5);
+}
+    
+    
+    
+    .flower-plant{display: flex;
+   width: 100vh;height: auto;align-items: center;justify-content: center;margin: 0;
+}
+
+ .bloom-plant{
+    background-image: url(deal-bloom.png);
+    background-size:cover ;
+    background-position: center center;
+    width: 367px;height: 201px;
+    border-radius: 14px;
+    display: flex; flex-direction: column; text-align: center;align-items: center;padding-top: 50px;
+    padding-right: 50px;color: rgba(255, 255, 255, 1);
+ }
+ .bloom-plant>a{
+    color: rgba(255, 255, 255, 1);
+ }
+ .ana-plant{
+    background-image: url(deal-ana.png);
+    background-size:cover;
+    background-position: center center;
+    width: 367px;height: 197px;
+    border-radius: 14px;
+    text-align: center;
+     transform: calc(90deg);
+      display: flex; flex-direction: column; text-align: center;align-items: center;padding-top:50px;
+      color: rgba(255, 255, 255, 1);}
+
+ .ana-plant>a{
+    color: rgba(255, 255, 255, 1);
+ }
+ .zabo-plant{
+    background-image: url(deal-zabo.png);
+    background-size: cover;
+    background-position: center center;
+    width: 753px;height: 403px;
+    border-radius: 5px;
+    display: flex; flex-direction: column; text-align: center;align-items: center;padding-top: 150px;
+    color: rgba(255, 255, 255, 1);}  
+ .zabo-plant>a{
+  color: rgba(255, 255, 255, 1);
+ }
+ .plant{
+    display: flex;gap: 50px;
+ }
+.plant-1{
+    display: flex; gap: 50px; justify-content: center;margin: 0;
+    margin-top: 122px;align-items: center;text-align: center;
+}
+
+.input-type{
+    background-image: url(news-letter-bg.png);
+    background-size:cover ;
+    width:1140px;
+    height: 560px;
+ margin:0;
+ margin-top: 120px;
+ 
+    
+}
+.input{
+
+  width: 100%;
+  height:auto; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.input-type,button{
+    background-color: rgba(233, 90, 8, 1);color: rgba(255, 255, 255, 1);   
+}
+
+ 
+
+
+.end{
+    width: 1140px;height: auto;display: flex;margin: 0;
+    gap: 80px; margin-top:50px;
+}
+.foot{
+    display: flex;
+    justify-content: center;align-items: center;
+    
+}
+
+
+
+.feature>li{
+    list-style:none;
+    margin-bottom: 50px;
+}
+.feature>li>a{
+    text-decoration: none;font-weight: 400;font-size: medium;color: gray;
+}
+
+.contact>li>a{
+ text-decoration: none;font-weight: 400;font-size: medium;color: gray;
+}
+.contact>li{
+    list-style: none;
+    margin-bottom: 50px;
+}
+.icon{
+display: flex;justify-content: center;width: 216px;height: 36px; margin-right: 20px;
+}
+.footer-left>p{
+ color: rgba(0, 0, 0, 0.5);
+}
+.footer-left{
+    margin-bottom: 16px;
+}
